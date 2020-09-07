@@ -1,5 +1,85 @@
+@charset "UTF-8";
 body {
+  background-color: #33264E;
+}
+
+.search {
+  width: -2%;
+  height: -2%;
+  border-radius: 100%;
+  background-color: #ff4b5c;
+}
+
+.icônes-twitter {
+  margin-top: 10px;
+  margin: 5px;
+  border-radius: 100%;
+  background-color: #ff4b5c;
+}
+
+.icônes-pinterest {
+  margin-top: 10px;
+  margin: 5px;
+  border-radius: 100%;
+  background-color: #ff4b5c;
+}
+
+.icônes-insta {
+  margin: 5px;
+  border-radius: 100%;
+  background-color: #ff4b5c;
+}
+
+.fcbk {
+  margin: 5px;
+  border-radius: 100%;
+  background-color: #ff4b5c;
+}
+
+.logo {
+  position: relative;
+  right: 4%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+}
+
+a {
+  text-decoration: none;
+  margin: 8px;
+  color: white;
+  font-family: "Mulish", sans-serif;
+}
+
+.image1 {
+  position: relative;
+  right: 18%;
+}
+
+#search {
+  position: relative;
+  left: 15%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+
+.trait {
   background-color: white;
+  height: 1px;
+  width: 40%;
+  position: relative;
+  left: 30%;
+  top: 60px;
 }
 
 /*# sourceMappingURL=main.css.map */
