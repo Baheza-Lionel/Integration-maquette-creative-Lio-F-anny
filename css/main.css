@@ -56,6 +56,10 @@ a {
   font-family: "Mulish", sans-serif;
 }
 
+p, h1, h2, h3, h4 {
+  color: white;
+}
+
 .image1 {
   position: relative;
   right: 18%;
@@ -80,6 +84,17 @@ a {
   position: relative;
   left: 30%;
   top: 60px;
+}
+
+.carrousel {
+  background-image: url(pexels-lisa-fotios-1882410.jpg);
+  background-color: black;
+  width: 1600px;
+  height: 480px;
+}
+
+.sidebar {
+  width: 332px;
 }
 
 /*# sourceMappingURL=main.css.map */
