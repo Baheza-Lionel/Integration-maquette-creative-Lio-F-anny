@@ -1,86 +1,100 @@
-
-body{
-  background-color:#33264E;
-
+@charset "UTF-8";
+body {
+  background-color: #33264E;
 }
-.search{
+
+.search {
   width: -2%;
   height: -2%;
   border-radius: 100%;
   background-color: #ff4b5c;
 }
 
-.icônes-twitter{
+.icônes-twitter {
   margin-top: 10px;
-  margin: 5px;
-  border-radius: 100%;
-  background-color: #ff4b5c;
-}
-.icônes-pinterest{
-  margin-top: 10px;
-  margin: 5px;
-  border-radius: 100%;
-  background-color: #ff4b5c;
-}
-.icônes-insta{
-  margin: 5px;
-  border-radius: 100%;
-  background-color: #ff4b5c;
-}
-.fcbk{
   margin: 5px;
   border-radius: 100%;
   background-color: #ff4b5c;
 }
 
-.logo{
+.icônes-pinterest {
+  margin-top: 10px;
+  margin: 5px;
+  border-radius: 100%;
+  background-color: #ff4b5c;
+}
+
+.icônes-insta {
+  margin: 5px;
+  border-radius: 100%;
+  background-color: #ff4b5c;
+}
+
+.fcbk {
+  margin: 5px;
+  border-radius: 100%;
+  background-color: #ff4b5c;
+}
+
+.logo {
   position: relative;
   right: 4%;
 }
-.nav-container{
+
+.nav-container {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   top: 50px;
 }
-a{
+
+a {
   text-decoration: none;
   margin: 8px;
   color: white;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
 }
-p, h1, h2, h3, h4{
+
+p, h1, h2, h3, h4 {
   color: white;
 }
-.image1{
-position: relative;
-right: 18%;
+
+.image1 {
+  position: relative;
+  right: 18%;
 }
-#search{
+
+#search {
   position: relative;
   left: 15%;
 }
-.header{
+
+.header {
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: space-between;
 }
-.trait{
-  background-color:white;
+
+.trait {
+  background-color: white;
   height: 1px;
   width: 40%;
   position: relative;
   left: 30%;
   top: 60px;
 }
-.carrousel{
-background-image: url(pexels-lisa-fotios-1882410.jpg);
-background-color: black;
-width: 1600px;
-height: 480px;
+
+.carrousel {
+  background-image: url(pexels-lisa-fotios-1882410.jpg);
+  background-color: black;
+  width: 1600px;
+  height: 480px;
 }
-.sidebar{
+
+.sidebar {
   width: 332px;
 }
+
+/*# sourceMappingURL=main.css.map */
