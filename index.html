@@ -6,108 +6,181 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Creative</title>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-  <div class="container-topbar">
-    <div class="header">
-      <div class="image1">
-        <img src="typcn_social-facebook.svg" class="fcbk" alt="facebook">
-        <img src="gg_twitter.svg" class="icônes-twitter" alt="twitter">
-        <img src="typcn_social-instagram.svg" class="icônes-insta" alt="instagram">
-        <img src="typcn_social-pinterest.svg" class="icônes-pinterest" alt="pinterest">
-      </div>
-      <img src="Creative.svg" class="logo" alt="logo du site">
-      <div id="search">
-        <img src="bx_bx-search-alt.svg" class="search" alt="research">
-      </div>
+  <header>
+    <div class="container-topbar">
+      <div class="header">
+        <div class="image1">
+          <img src="typcn_social-facebook.svg" class="fcbk" alt="facebook">
+          <img src="gg_twitter.svg" class="icônes-twitter" alt="twitter">
+          <img src="typcn_social-instagram.svg" class="icônes-insta" alt="instagram">
+          <img src="typcn_social-pinterest.svg" class="icônes-pinterest" alt="pinterest">
+        </div>
+        <img src="Creative.svg" class="logo" alt="logo du site">
+        <div>
+          <img src="bx_bx-search-alt.svg" id="search" alt="research">
+        </div>
 
 
+      </div>
+      <div class="nav-container">
+        <a href="">Home</a>
+        <a href="">Articles</a>
+        <a href="">Contact</a>
+        <a href="">About</a>
+      </div>
     </div>
-    <div class="nav-container">
-      <a href="">Home</a>
-      <a href="">Articles</a>
-      <a href="">Contact</a>
-      <a href="">About</a>
+    <div class="trait"></div>
+    <div class="carrousel" style="background-image: url(photocarrou.jpg);">
+      <div class="cercle1-container">
+        <div id="cercle1"></div>
+        <p class="para">Category</p>
+
+      </div>
+      <h1>Titre de l'article qui peut être super long</h1>
+      <div class="john-container">
+        <img src="john.jpeg" class="doe" alt="photo">
+        <p>John Doe</p>
+        <div class="carre1"></div>
+        <p>23 Août 2020</p>
+      </div>
+      <button class="bouton1">Lire la suite</button>
     </div>
-  </div>
-  <div class="trait"></div>
-  <div class="carrousel">
-    <div class="cercle1-container">
-      <div class="cercle1"></div>
-      <p>Category</p>
+    <div class="cercle2-container">
+      <div class="cercle2"></div>
+      <div class="cercle3"></div>
+      <div class="cercle4"></div>
     </div>
-    <h1>Titre de l'article qui peut être super long</h1>
-    <div class="john-container">
-      <img src="" class="doe" alt="photo">
-      <p>John Doe</p>
-      <div class="carre1"></div>
-      <p>23 Août 2020</p>
-    </div>
-    <button class="bouton1">Lire la suite</button>
-  </div>
-  <div class="cercle2-container">
-    <div class="cercle2"></div>
-    <div class="cercle3"></div>
-    <div class="cercle4"></div>
-  </div>
+  </header>
+
   <div class="sidebar">
+
     <div class="titre1-container">
       <h3>Recent posts</h3>
       <div class="ligne1"></div>
     </div>
-    <div class="category1-container">
-      <img src="pexels-photo-573299.jpeg" class="article1" alt="photo">
-      <h4>Titre de l'article qui peut être aussi long</h4>
-      <div class="crarre2-container">
-        <div class="carre2"></div>
+
+    <div class="category-container">
+
+      <img src="nature.jpeg" class="article1" alt="photo">
+
+      <div class="category-container__item">
+        <h4>Titre de l'article qui peut être aussi long</h4>
         <p>23 Août 2020</p>
       </div>
+
     </div>
-    <div class="category2-container">
-      <img src="" class="article1" alt="photo">
-      <h4>Titre de l'article qui peut être aussi long</h4>
-      <div class="crarre3-container">
-        <div class="carre3"></div>
+
+    <div class="category-container">
+
+      <img src="travail.jpeg" class="article1" alt="photo">
+
+      <div class="category-container__item">
+        <h4>Titre de l'article qui peut être aussi long</h4>
         <p>23 Août 2020</p>
       </div>
+
     </div>
-    <div class="category3-container">
-      <img src="pexels-photo-1586996.jpeg" class="article1" alt="photo">
-      <h4>Titre de l'article qui peut être aussi long</h4>
-      <div class="crarre4-container">
-        <div class="carre4"></div>
+
+    <div class="category-container">
+
+      <img src="beauté.jpeg" class="article1" alt="photo">
+
+      <div class="category-container__item">
+        <h4>Titre de l'article qui peut être aussi long</h4>
         <p>23 Août 2020</p>
       </div>
+
     </div>
+
     <div class="titre2-container">
       <h3>Social profiles</h3>
       <div class="ligne2"></div>
     </div>
+
     <div class="social1-container">
-      <div class="container1">
-        <h4>Twitter</h4>
-        <span>FOLLOW ME!</span>
-      </div>
-      <img src="gg_twitter.svg" alt="image">
+
+      <h5>Twitter<br>FOLLOW ME!</h5>
+
+      <img src="gg_twitter.svg" alt="image" class="social">
+
     </div>
+
     <div class="social2-container">
-      <div class="container2">
-        <h4>Facebook</h4>
-        <span>FOLLOW ME!</span>
-      </div>
-      <img src="typcn_social-facebook.svg" alt="image">
+
+      <h5>Facebook<br>FOLLOW ME!</h5>
+
+      <img src="typcn_social-facebook.svg" alt="image" class="social">
+
     </div>
+
     <div class="social3-container">
-      <div>
-        <h4>Instagram</h4>
-        <span>FOLLOW ME!</span>
+
+      <h5>Instagram<br>FOLLOW ME!</h5>
+
+      <img src="typcn_social-instagram.svg" alt="image" class="social">
+
+    </div>
+
+    <div class="titre3-container">
+      <h3>Categories</h3>
+      <div class="ligne1"></div>
+    </div>
+
+    <div class="lescercles1-container">
+      <p class=" para1">Category</p>
+      <p class="para2">Category</p>
+      <p class="para3">Category</p>
+    </div>
+
+    <div class="lescercles2-container">
+      <p class="para4">Category</p>
+      <p class="para3">Category</p>
+      <p class="para2">Category</p>
+    </div>
+
+    <div class="titre3-container">
+      <h3>Advertising</h3>
+      <div class="ligne1"></div>
+    </div>
+    <img src="pexels-photo-331987.jpeg" alt="image" class="isole">
+  </div>
+
+  <!--l'html en dessous est mon main-container-->
+
+  <div class="main-container">
+
+    <div class="main1-container">
+
+      <img src="ecoute.jpeg" alt="image" class="ecoute">
+
+      <div class="icône-para">
+        <p class="para2">Category</p>
+        <div class="icône1">
+          <img src="" alt="image" class="message">
+          <img src="" alt="image" class="partage">
+        </div>
       </div>
-      <img src="typcn_social-instagram.svg" alt="image">
+
+      <div class="text-container">
+        <h2>Titre de l'article</h2>
+        <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do<br> eismod tempor incididunt ut
+          labore<br> et dolore magna aliqua</p>
+        <div class="john1-container">
+          <img src="john.jpeg" class="doe" alt="photo">
+          <p>John Doe</p>
+          <div class="carre1"></div>
+          <p>23 Août 2020</p>
+        </div>
+      </div>
+
     </div>
   </div>
-  <div class="main-container"></div>
   <div class="footer"></div>
 </body>
 
