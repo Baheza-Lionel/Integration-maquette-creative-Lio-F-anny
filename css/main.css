@@ -57,7 +57,7 @@ a {
 }
 
 p, h1, h2, h3, h4, span {
-  color: white;
+color: white;
 }
 
 .image1 {
@@ -93,6 +93,7 @@ p, h1, h2, h3, h4, span {
 }
 
 /* Le code en dessous est le css de mon carrousel*/
+
 .carrousel {
   width: 1400px;
   height: 480px;
@@ -171,6 +172,7 @@ h1 {
 }
 
 /* pour que je sache que je travaille dans mon SIDEBAR je mets ici en dessous TOUS ce qui concerne mon SIDEBAR */
+
 .sidebar {
   width: 332px;
   position: relative;
@@ -362,6 +364,7 @@ h5 {
 }
 
 /*Le code en dessous est le css de main container*/
+
 .main-container {
   width: 800px;
 }
@@ -394,6 +397,7 @@ h5 {
 }
 
 /*Le code en dessous est le css des sans appartenance*/
+
 .cercle2-container {
   display: flex;
   justify-content: center;
@@ -428,5 +432,12 @@ h5 {
   height: 12px;
   margin: 5px;
 }
+.carrousel {
+  background-image: url(pexels-lisa-fotios-1882410.jpg);
+  background-color: black;
+  width: 1600px;
+  height: 480px;
+}
+
 
 /*# sourceMappingURL=main.css.map */
