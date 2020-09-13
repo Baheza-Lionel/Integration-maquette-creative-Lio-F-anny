@@ -142,13 +142,10 @@ p, h1, h2, h3, h4, span {
 }
 
 h1 {
-  position: relative;
-  top: 150px;
-}
-
-h1 {
   display: flex;
   justify-content: center;
+  position: relative;
+  top: 150px;
 }
 
 .john-container {
@@ -174,8 +171,7 @@ h1 {
 .sidebar {
   width: 332px;
   position: relative;
-  left: 950px;
-  top: 100px;
+  left: 850px;
 }
 
 h5 {
@@ -364,20 +360,34 @@ h5 {
 /*Le code en dessous est le css de main container*/
 .main-container {
   width: 800px;
+  position: relative;
+  left: 150px;
 }
 
 .main1-container {
   display: flex;
   box-shadow: #33264E;
+  margin-top: 100px;
 }
 
 .icône-para {
-  display: flex;
-  margin: 10px;
+  margin: 20px;
+}
+
+.para5::before {
+  display: inline-block;
+  content: "";
+  background-color: #28df99;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  border-color: white;
+  margin: 4px;
 }
 
 .icône1 {
   display: flex;
+  justify-content: flex-end;
 }
 
 .ecoute {
@@ -387,6 +397,30 @@ h5 {
 
 .john1-container {
   display: flex;
+}
+
+.bouton2 {
+  background-color: #ff4b5c;
+  padding: 5px;
+  width: 15%;
+  height: 8%;
+  border: white;
+  color: white;
+  position: relative;
+  top: 295px;
+  right: 50px;
+}
+
+/*Le code si dessous est le css de mon footer*/
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo1 {
+  position: relative;
+  left: 150px;
 }
 
 /*Le code en dessous est le css des sans appartenance*/
