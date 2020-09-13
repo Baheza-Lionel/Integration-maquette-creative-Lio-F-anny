@@ -330,13 +330,12 @@ display: flex;
   width: 800px;
   position: relative;
   left: 150px;
+  top: 50px;
 }
 .main1-container{
   display: flex;
   box-shadow: 1px 1px 1px 1px black;
   margin-top: 50px;
-  position: relative;
-  top: 60px;
 }
 .icône-para{
   margin: 20px;
@@ -375,7 +374,8 @@ display: flex;
 }
 
 /*Le code si dessous est le css de mon footer*/
-.footer{
+
+footer{
   grid-column: 1;
   grid-row: 3;
 }
