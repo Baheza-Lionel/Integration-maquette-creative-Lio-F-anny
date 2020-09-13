@@ -5,6 +5,11 @@ body {
   background-color: #33264E;
 }
 
+header {
+  grid-column: 1;
+  grid-row: 1;
+}
+
 img {
   object-fit: cover;
 }
@@ -46,7 +51,6 @@ img {
   align-items: center;
   position: relative;
   top: 50px;
-  left: 150px;
 }
 
 a {
@@ -71,7 +75,6 @@ p, h1, h2, h3, h4, span {
   width: -2%;
   height: -2%;
   position: relative;
-  left: 15%;
 }
 
 .header {
@@ -79,8 +82,6 @@ p, h1, h2, h3, h4, span {
   justify-content: center;
   align-items: center;
   align-content: space-between;
-  position: relative;
-  left: 150px;
 }
 
 .trait {
@@ -88,7 +89,7 @@ p, h1, h2, h3, h4, span {
   height: 1px;
   width: 75%;
   position: relative;
-  left: 25%;
+  left: 12%;
   top: 60px;
 }
 
@@ -170,8 +171,11 @@ h1 {
 /* pour que je sache que je travaille dans mon SIDEBAR je mets ici en dessous TOUS ce qui concerne mon SIDEBAR */
 .sidebar {
   width: 332px;
+  grid-column: 2;
+  grid-row: 2;
   position: relative;
-  left: 850px;
+  right: 500px;
+  top: 80px;
 }
 
 h5 {
@@ -191,7 +195,6 @@ h5 {
 
 .isole {
   width: 65%;
-  height: 65%;
   position: relative;
   left: 20%;
 }
@@ -359,6 +362,8 @@ h5 {
 
 /*Le code en dessous est le css de main container*/
 .main-container {
+  grid-column: 1;
+  grid-row: 2;
   width: 800px;
   position: relative;
   left: 150px;
@@ -366,8 +371,10 @@ h5 {
 
 .main1-container {
   display: flex;
-  box-shadow: #33264E;
-  margin-top: 100px;
+  box-shadow: 1px 1px 1px 1px black;
+  margin-top: 50px;
+  position: relative;
+  top: 60px;
 }
 
 .icône-para {
@@ -412,10 +419,17 @@ h5 {
 }
 
 /*Le code si dessous est le css de mon footer*/
+.footer {
+  grid-column: 1;
+  grid-row: 3;
+}
+
 .bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  top: 100px;
 }
 
 .logo1 {
@@ -424,12 +438,15 @@ h5 {
 }
 
 /*Le code en dessous est le css des sans appartenance*/
+.grid {
+  display: grid;
+}
+
 .cercle2-container {
   display: flex;
   justify-content: center;
   position: relative;
   top: 50px;
-  left: 150px;
 }
 
 .cercle2 {
