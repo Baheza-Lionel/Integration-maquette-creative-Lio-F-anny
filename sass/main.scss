@@ -331,21 +331,18 @@ display: flex;
 }
 .main1-container{
   display: flex;
-  border: solid  5px lightslategray;
+  box-shadow: #33264E;
 }
 .icône-para{
-display: flex;
+  display: flex;
 margin: 10px;
-}
-.text-container{
-  margin-top: 20px;
 }
 .icône1{
   display: flex;
 }
 .ecoute{
-  width: 45%;
   display: block;
+  width: 43%;
 }
 .john1-container{
   display: flex;
