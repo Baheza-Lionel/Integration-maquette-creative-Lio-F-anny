@@ -13,30 +13,22 @@ img{
 }
 .icônes-twitter{
   margin-top: 10px;
-  margin: 5px;
   border-radius: 100%;
   background-color: #ff4b5c;
+  align-items: center;
 }
 .icônes-pinterest{
   margin-top: 10px;
-  margin: 5px;
   border-radius: 100%;
   background-color: #ff4b5c;
 }
 .icônes-insta{
-  margin: 5px;
   border-radius: 100%;
   background-color: #ff4b5c;
 }
 .fcbk{
-  margin: 5px;
   border-radius: 100%;
   background-color: #ff4b5c;
-}
-
-.logo{
-  position: relative;
-  right: 4%;
 }
 .nav-container{
   display: flex;
@@ -44,6 +36,10 @@ img{
   align-items: center;
   position: relative;
   top: 50px;
+}
+.logo{
+  position: relative;
+  right: 4%;
 }
 a{
   text-decoration: none;
@@ -83,10 +79,10 @@ right: 18%;
 /* Le code en dessous est le css de mon carrousel*/
 
 .carrousel{
-  width: 1400px;
+  width: 1600px;
   height: 480px;
 background-color: black;
-margin: 50px;
+margin: 125px;
 position: relative;
 top: 80px;
 }
@@ -144,7 +140,7 @@ border:white;
 color: white;
 font-family:"playfair display",regular 400;
 position: relative;
-left: 600px;
+left: 700px;
 top: 175px;
 }
 
@@ -154,8 +150,7 @@ top: 175px;
   width: 332px;
   grid-column: 2;grid-row: 2;
   position: relative;
-  right: 500px;
-  top: 80px;
+  right: 600px;
 }
 h5{
   color: white;
@@ -329,13 +324,15 @@ display: flex;
   grid-row: 2;
   width: 800px;
   position: relative;
-  left: 150px;
-  top: 50px;
+  left: 250px;
 }
 .main1-container{
   display: flex;
-  box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 2px 2px 2px 2px black;
   margin-top: 50px;
+}
+.titre-dur{
+  display: block;
 }
 .icône-para{
   margin: 20px;
@@ -364,21 +361,30 @@ display: flex;
 }
 .bouton2{
   background-color: #ff4b5c;
-  padding: 5px;
-  width: 15%;
+  padding: 10px;
+  width: 17%;
   height: 8%;
   border: white;
   color: white;
   position: relative;
-  top: 295px;
-  right: 50px;
+  top: 280px;
 }
 
 /*Le code si dessous est le css de mon footer*/
 
 footer{
-  grid-column: 1;
-  grid-row: 3;
+  width: 100%;
+  height: 50%;
+  background-color:  #362953;
+  position: relative;
+  top: 100px;
+  left: 250px;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 200px;
 }
 .bottom{
 display: flex;
@@ -387,10 +393,49 @@ align-items: center;
 position: relative;
 top: 100px;
 }
-.logo1{
-  position: relative;
-  left: 150px;
+.sous-container1{
+  background-color: #362953;
 }
+.parag{
+  display: block;
+}
+.ligne3{
+  background-color: #ff4b5c;
+  height: 2px;
+  width: 60%;
+  margin: 4px;
+  position: relative;
+  top: 25px;
+}
+.ligne4{
+  background-color: #ff4b5c;
+  height: 2px;
+  width: 20%;
+  margin: 2px;
+  position: relative;
+  top: 25px;
+}
+.social-footer{
+  display: flex;
+}
+.social-footer1{
+  display: flex;
+}
+.social-footer2{
+  display: flex;
+}
+.bouton3{
+  background-color: #ff4b5c;
+  padding: 10px;
+  width: 60%;
+  height: 20%;
+  border:white;
+  color: white;
+  font-family:"playfair display",regular 400;
+  position: relative;
+  top: 10px;
+  }
+
 /*Le code en dessous est le css des sans appartenance*/
 .grid{
   display: grid;
@@ -398,8 +443,6 @@ top: 100px;
 .cercle2-container{
   display: flex;
   justify-content: center;
-  position: relative;
-  top: 50px;
 }
 .cercle2{
   border-radius: 75%;
