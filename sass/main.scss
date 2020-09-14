@@ -310,12 +310,7 @@ display: flex;
   margin: 4px;
 }
 }
-.titre2-container{
-  display: flex;
-}
-.titre3-container{
-  display: flex;
-}
+
 
 /*Le code en dessous est le css de main container*/
 
@@ -384,7 +379,15 @@ footer{
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  top: 200px;
+  top: 300px;
+  right: 150px;
+}
+.made-text{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 450px;
+
 }
 .bottom{
 display: flex;
@@ -396,8 +399,10 @@ top: 100px;
 .sous-container1{
   background-color: #362953;
 }
-.parag{
-  display: block;
+.titre4-container{
+  display: flex;
+  position: relative;
+  top: 15px;
 }
 .ligne3{
   background-color: #ff4b5c;
@@ -414,6 +419,18 @@ top: 100px;
   margin: 2px;
   position: relative;
   top: 25px;
+}
+.trait1{
+  background-color:white;
+  height: 1px;
+  width: 100%;
+  position: relative;
+  left: 10px;
+  top: 400px;
+}
+.crea{
+  position: relative;
+  left: 450px;
 }
 .social-footer{
   display: flex;
