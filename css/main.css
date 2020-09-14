@@ -72,6 +72,7 @@ p, h1, h2, h3, h4, span {
   width: -2%;
   height: -2%;
   position: relative;
+  left: 150px;
 }
 
 .header {
@@ -359,7 +360,7 @@ h5 {
 
 .main1-container {
   display: flex;
-  box-shadow: 2px 2px 2px 2px black;
+  box-shadow: 1px 1px 1px 1px black;
   margin-top: 50px;
 }
 
