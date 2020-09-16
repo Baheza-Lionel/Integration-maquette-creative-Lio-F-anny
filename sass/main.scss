@@ -94,12 +94,13 @@ margin-top: 80px;
 .carre1{
   background-color: #ff4b5c;
 padding: 1px;
-width: 4px;
-height: 4px;
+width: 8px;
+height: 8px;
 position: relative;
-top: 24px;
-margin-left: 6px;
-margin-right: 6px;
+top: 20px;
+margin-left: 8px;
+margin-right: 8px;
+transform: rotate(45deg);
 }
 .cercle1-container{
   display: flex;
@@ -239,10 +240,11 @@ p::before{
     display: inline-block;
     content: "";
     background-color: #ff4b5c;
-    height: 6px;
-    width: 6px;
+    height: 8px;
+    width: 8px;
     border: solid white 1px;
-    margin: 0 5px 0 5px;
+    margin: 0 8px;
+    transform: rotate(45deg);
 }
 }
 .para1, .para2, .para3, .para4{
@@ -430,6 +432,20 @@ align-items: center;
   width: 40%;
   margin: 2px;
 }}
+  .roll{
+    position: relative;
+    left: 100px;
+  }
+  .roll::after{
+    display: inline-block;
+    margin: 0 10px;
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-right: solid transparent 12px;
+    border-left: solid transparent 12px;
+    border-bottom: 12px solid #ff4b5c;
+  }
 .trait1{
   max-width: 1200px;
   margin: 0 auto;
@@ -461,9 +477,7 @@ align-items: center;
   }
 
 /*Le code en dessous est le css des sans appartenance*/
-.grid{
-  display: grid;
-}
+
 .cercle2-container{
   display: flex;
   justify-content: center;
