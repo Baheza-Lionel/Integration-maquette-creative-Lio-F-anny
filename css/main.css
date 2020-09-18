@@ -368,10 +368,6 @@ h5 {
   margin-top: 50px;
 }
 
-.titre-dur {
-  display: block;
-}
-
 .icône-para {
   margin: 20px;
 }
@@ -562,9 +558,151 @@ footer {
 
 /* Les codes en dessous sont les css de l'article(la 2eme page*/
 /*Le code en dessous est le css de mon header*/
-.logo-article {
+/*le bout de code en dessous est pour les icônes de la page article */
+.header-article {
+  width: 1200px;
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: relative;
-  left: 10px;
+  top: 50px;
+}
+
+.icônes-twitter-article {
+  margin-top: 10px;
+  border-radius: 100%;
+  background-color: #ff4b5c;
+  align-items: center;
+  position: relative;
+}
+
+.icônes-pinterest-article {
+  margin-top: 10px;
+  border-radius: 100%;
+  background-color: #ff4b5c;
+  position: relative;
+}
+
+.icônes-insta-article {
+  border-radius: 100%;
+  background-color: #ff4b5c;
+  position: relative;
+}
+
+.fcbk-article {
+  border-radius: 100%;
+  background-color: #ff4b5c;
+  position: relative;
+}
+
+#search-article {
+  background-color: #ff4b5c;
+  border-radius: 100%;
+  width: -2%;
+  height: -2%;
+  position: relative;
+  right: 100px;
+}
+
+.trait-article {
+  background-color: white;
+  height: 1px;
+  width: 100%;
+  position: relative;
+  top: 120px;
+}
+
+.nav-container-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+  left: 45px;
+}
+
+/* le bout de code pour le main container */
+.main-container-article {
+  grid-column: 1;
+  grid-row: 2;
+  position: relative;
+  right: 200px;
+  top: 150px;
+}
+
+.ecoute-article {
+  display: block;
+  width: 786px;
+  height: 491px;
+}
+
+.main1-container-article {
+  display: flex;
+  position: relative;
+  right: 100px;
+  top: 350px;
+}
+
+.icône-para-article {
+  margin: 20px;
+}
+
+.titre-article {
+  margin-top: 50px;
+}
+.titre-article p::before {
+  display: inline-block;
+  content: "";
+  background-color: #28df99;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  border-color: white;
+  margin: 4px;
+}
+.titre-article .titre-article h1 {
+  position: relative;
+  bottom: 350px;
+  right: 480px;
+}
+
+.icône1-article {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.doe-article {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.carre1-article {
+  background-color: #ff4b5c;
+  padding: 1px;
+  width: 8px;
+  height: 8px;
+  position: relative;
+  top: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
+  transform: rotate(45deg);
+}
+
+.john1-container-article {
+  display: flex;
+}
+
+/*le bout de code en dessous est pour le sidebar et le trait pour la page article*/
+.sidebar-article {
+  width: 332px;
+  grid-column: 1;
+  grid-row: 2;
+  position: relative;
+  bottom: 700px;
+  left: 850px;
 }
 
 /*# sourceMappingURL=main.css.map */
