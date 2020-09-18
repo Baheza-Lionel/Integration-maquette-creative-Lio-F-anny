@@ -705,9 +705,7 @@ footer {
   margin: 4px;
 }
 .titre-article h1 {
-  position: relative;
-  bottom: 350px;
-  right: 480px;
+  position: absolute;
 }
 
 .icône1-article {
