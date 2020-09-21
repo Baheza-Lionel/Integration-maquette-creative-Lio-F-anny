@@ -643,9 +643,11 @@ margin: 5px;
   bottom: 15px;
   left: 50px;
 }
-h1{
-  display: block;
-  max-width: auto;
+.titre1-article{
+  h1{
+    display: block;
+    margin-top: 100px;
+  }
 }
 .icône-para-article{
   margin: 20px;
